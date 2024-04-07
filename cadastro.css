@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+
+}
+
+.navbar {
+    width: 300px;
+    color: #e3b062;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar a{
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #32b9cd;
+}
+
+.header {
+border-bottom:3px solid #32b9cd ;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.banner{
+    background-image: url("./asses/imagens/imagens/bg-jelly-fish-para_outras_pags.png");
+    height: 500px;
+   
+    
+}
+
+.banner .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .container p{
+    font-size: 32px;
+    width: 200px;
+}
+
+.caixa{
+    background-color: #e2d9d9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+   display: flex;
+   flex-direction: column;
+   
+
+}
+
+.text{
+    color: rgb(245, 10, 139);
+    text-align: center;
+}
+
+.text2{
+    color: rgb(245, 10, 139);
+    width: 200px;
+    height: 30px;
+    margin: auto;
+}
+
+.input{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: #32b9cd;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button{
+    background-color:  rgb(245, 10, 139); 
+    color: white; 
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: 2px;
+    border-radius: 2px;
+   margin: 0 auto;
+   
+}
